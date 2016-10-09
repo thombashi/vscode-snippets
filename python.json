@@ -1,0 +1,11 @@
+{
+    "property": {
+        "prefix": "property",
+        "body": [
+            "@property",
+            "def ${name}(self):",
+            "    return self.__${name}"
+        ],
+        "description": "definition of a getter"
+    }
+}
