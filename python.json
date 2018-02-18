@@ -6,7 +6,7 @@
             "def ${name}(self):",
             "    return self.__${name}"
         ],
-        "description": "Definition of a getter for a class."
+        "description": "Definition of a getter for a Python class."
     },
     "definr setter": {
         "prefix": "setter",
@@ -15,7 +15,7 @@
             "def ${name}(self, x):",
             "    return self.__${name} = x"
         ],
-        "description": "Definition of a setter for a class."
+        "description": "Definition of a setter for a Python class."
     },
     "header": {
         "prefix": "header",
@@ -31,7 +31,7 @@
             "",
             ""
         ],
-        "description": "Definition of a setter for a class."
+        "description": "Header template for a Python script."
     },
     "main": {
         "prefix": "main",
@@ -44,6 +44,6 @@
             "    sys.exit(main())",
             ""
         ],
-        "description": "Definition of a setter for a class."
+        "description": "Main function template for a Python script."
     }
 }
