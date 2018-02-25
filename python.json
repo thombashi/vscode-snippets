@@ -18,9 +18,9 @@
         "description": "Header template for a Python script."
     },
     "class": {
-        "prefix": "class",
+        "prefix": "class init",
         "body": [
-            "class {class_name}(object):",
+            "class ${class_name}(object):",
             "",
             "    def __init__(self):",
             "        pass",
