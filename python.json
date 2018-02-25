@@ -1,22 +1,4 @@
 {
-    "definr property": {
-        "prefix": "property",
-        "body": [
-            "@property",
-            "def ${name}(self):",
-            "    return self.__${name}"
-        ],
-        "description": "Definition of a getter for a Python class."
-    },
-    "definr setter": {
-        "prefix": "setter",
-        "body": [
-            "@${name}.setter",
-            "def ${name}(self, x):",
-            "    return self.__${name} = x"
-        ],
-        "description": "Definition of a setter for a Python class."
-    },
     "header": {
         "prefix": "header",
         "body": [
@@ -29,9 +11,40 @@
             "",
             "from __future__ import division, print_function, unicode_literals",
             "",
+            "import sys",
+            "",
             ""
         ],
         "description": "Header template for a Python script."
+    },
+    "class": {
+        "prefix": "class",
+        "body": [
+            "class {class_name}(object):",
+            "",
+            "    def __init__(self):",
+            "        pass",
+            ""
+        ],
+        "description": "Class template"
+    },
+    "property: getter": {
+        "prefix": "property",
+        "body": [
+            "@property",
+            "def ${name}(self):",
+            "    return self.__${name}"
+        ],
+        "description": "getter template for a Python class."
+    },
+    "property: setter": {
+        "prefix": "setter",
+        "body": [
+            "@${name}.setter",
+            "def ${name}(self, x):",
+            "    return self.__${name} = x"
+        ],
+        "description": "setter template for a Python class."
     },
     "main": {
         "prefix": "main",
