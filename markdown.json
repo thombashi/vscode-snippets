@@ -1,0 +1,22 @@
+{
+    "<details> tag": {
+        "prefix": "details",
+        "body": [
+            "<details>",
+            "<summary>${1:summary}</summary>",
+            "",
+            "",
+            "</details>"
+        ],
+        "description": "Python code block"
+    },
+    "Python code block": {
+        "prefix": "py",
+        "body": [
+            "```py",
+            "",
+            "```"
+        ],
+        "description": "Python code block"
+    }
+}
