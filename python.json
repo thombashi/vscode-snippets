@@ -1,8 +1,14 @@
 {
+    "shebang": {
+        "prefix": "#!",
+        "body": [
+            "#!/usr/bin/env python",
+            ""
+        ]
+    },
     "header": {
         "prefix": "header",
         "body": [
-            "#!/usr/bin/env python",
             "# encoding: utf-8",
             "",
             "'''",
