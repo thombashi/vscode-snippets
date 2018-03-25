@@ -1,0 +1,8 @@
+{
+	"println": {
+		"prefix": "print",
+		"body": [
+			"System.out.println(${string});"
+		]
+	}
+}
