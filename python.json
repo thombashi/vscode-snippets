@@ -1,6 +1,13 @@
 {
-    "shebang": {
+    "shebang_symbol": {
         "prefix": "#!",
+        "body": [
+            "#!/usr/bin/env python",
+            ""
+        ]
+    },
+    "shebang_word": {
+        "prefix": "shebang",
         "body": [
             "#!/usr/bin/env python",
             ""
