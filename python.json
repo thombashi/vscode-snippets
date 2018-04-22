@@ -55,7 +55,7 @@
         "body": [
             "@${name}.setter",
             "def ${name}(self, x):",
-            "    return self.__${name} = x"
+            "    self.__${name} = x"
         ],
         "description": "setter template for a Python class."
     },
