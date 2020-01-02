@@ -1,28 +1,26 @@
 {
     "shebang_symbol": {
-        "prefix": ["#!", "shebang"],
+        "prefix": [
+            "#!",
+            "shebang"
+        ],
         "body": [
-            "#!/usr/bin/env python",
+            "#!/usr/bin/env python3",
             ""
         ]
     },
     "codeauthor": {
-        "prefix": ["author", "codeauthor"],
+        "prefix": [
+            "author",
+            "codeauthor"
+        ],
         "body": [
             ".. codeauthor:: Tsuyoshi Hombashi <tsuyoshi.hombashi@gmail.com>"
         ]
     },
     "header": {
         "prefix": "header",
-        "body": [
-            "# encoding: utf-8",
-            "",
-            "from __future__ import absolute_import, division, print_function, unicode_literals",
-            "",
-            "import sys",
-            "",
-            ""
-        ],
+        "body": [],
         "description": "Header template for a Python script."
     },
     "class": {
@@ -71,6 +69,9 @@
     "main": {
         "prefix": "main",
         "body": [
+            "import sys",
+            "",
+            "",
             "def main():",
             "    return 0",
             "",
