@@ -1,11 +1,14 @@
 {
     "shebang": {
-        "prefix": "#!",
+        "prefix": [
+            "#!",
+            "shebang"
+        ],
         "body": [
             "#!/usr/bin/env sh",
             "",
             ""
         ],
         "description": "Add shebang"
-    },
+    }
 }
