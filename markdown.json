@@ -1,4 +1,23 @@
 {
+    "checkbox": {
+        "prefix": [
+            "cb",
+            "checkbox"
+        ],
+        "body": [
+            "- [ ] "
+        ],
+        "description": "single check box"
+    },
+    "code block": {
+        "prefix": "code",
+        "body": [
+            "```",
+            "",
+            "```"
+        ],
+        "description": "source code block"
+    },
     "<details> tag": {
         "prefix": "details",
         "body": [
@@ -9,7 +28,7 @@
             "```",
             "</details>"
         ],
-        "description": "Python code block"
+        "description": "collapsable code block"
     },
     "Python code block": {
         "prefix": "py",
